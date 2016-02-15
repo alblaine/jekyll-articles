@@ -37,7 +37,7 @@ You can edit this file by opening it in a text editor, editing the information, 
 
 
 ## Adding posts
-All you have to do to add a new post is to create a file and drop it into the _posts folder. However, you have to format the title of the post with the date included in the title at the beginning. The file is saved as a .md file because it is written in [markdown](http://daringfireball.net/projects/markdown/). Here's an example: 
+Each post is its own file saved in the _posts folder. All you have to do to add a new post is to create a file and drop it into the _posts folder, and sync that to your github repository. However, you have to format the title of the post with the date included in the title at the beginning. The file is saved as a .md file because it is written in [markdown](http://daringfireball.net/projects/markdown/). Here's an example: 
 
 <pre><code>
 2011-12-31-new-years-eve-is-awesome.md
@@ -46,7 +46,7 @@ All you have to do to add a new post is to create a file and drop it into the _p
 
 ## Formatting posts
 
-Each post must have a header that tells Jekyll how to display your page. The header looks like this:
+Each post must have a header that tells Jekyll how to display it, along with some supporting data about the post, like tags and date modified. The header looks like this:
 
 <pre><code>
 ---
