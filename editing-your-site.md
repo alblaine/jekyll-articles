@@ -13,23 +13,29 @@ This article will cover the basics on how to edit the features of your site and 
 * [Notepad++](https://notepad-plus-plus.org)
 
 ## Editing the configuration of your Jekyll site
-The _config.yml file stores data about you and your site, such as your contact information and your site's title and URL. See this example: 
+The _config.yml file stores data about you and your site, such as your contact information and your site's title and URL.
 
 <pre><code>
+# Site wide configuration
+
+title:            Todd Stoffer
+locale:           en_US
+url:
+
+. . .
+
 # Site owner
 owner:
   name: Todd Stoffer
   avatar: bio-photo.jpg
   bio: "Hi I'm Todd, I am a librarian."
   email: tdstoffe@ncsu.edu
-  disqus-shortname:
-  twitter: toddstoffer
-  facebook: #username
+  
 </pre></code>
 
 You can edit this file by opening it in a text editor, editing the information, and then saving it into the repository folder, replacing the older version of the file. You will then need to commit the changes to your github repository so that the changes will show up on your Jekyll site. 
 
-For more information on how to manage files and commit them to your Github repository, see [here](http://www.w3schools.com/colors/colors_picker.asp). 
+For more information on how to manage files and commit them to your Github repository, see this [getting started guide](https://guides.github.com/introduction/getting-your-project-on-github/#desktop).
 
 ## Adding a photo to your site
 In the _config.yml file, you can add a photo that will be featured on the home page. In the site owner section, change "bio-photo.jpg" to your own image name. Make sure to add the new image to the images folder as well.
