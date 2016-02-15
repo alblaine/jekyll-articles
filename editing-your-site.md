@@ -35,9 +35,7 @@ owner:
 
 You can edit this file by opening it in a text editor, editing the information, and then saving it into the repository folder, replacing the older version of the file. You will then need to commit the changes to your github repository so that the changes will show up on your Jekyll site. 
 
-
 ## Adding a photo to your site
-
 In the _config.yml file, you can add a photo that will be featured on the home page. In the site owner section, change "bio-photo.jpg" to your own image name. Make sure to add the new image to the images folder as well.
 
 <pre><code>
@@ -49,7 +47,6 @@ owner:
 
 
 ## Adding posts
-
 All you have to do to add a new post is to create a file and drop it into the _posts folder. 
 
 Each post must have a header that tells Jekyll how to display your page. The header looks like this:
