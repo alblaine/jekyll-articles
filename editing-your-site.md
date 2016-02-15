@@ -31,7 +31,9 @@ owner:
   bio: "Hi I'm Todd, I am a librarian."
   email: tdstoffe@ncsu.edu
   
-</pre></code>
+</code></pre>
+
+You can edit this file by opening it in a text editor, editing the information, and then saving it into the repository folder, replacing the older version of the file. You will then need to commit the changes to your github repository so that the changes will show up on your Jekyll site. For more information on how to manage files and commit them to your Github repository, see this getting started [guide](http://guides.github.com/introduction/getting-your-project-on-github)
 
 
 ## Adding posts
