@@ -38,6 +38,7 @@ You can edit this file by opening it in a text editor, editing the information, 
 For more information on how to manage files and commit them to your Github repository, see this getting started guide: https://guides.github.com/introduction/getting-your-project-on-github/#desktop.
 
 ## Adding a photo to your site
+
 In the _config.yml file, you can add a photo that will be featured on the home page. In the site owner section, change "bio-photo.jpg" to your own image name. Make sure to add the new image to the images folder as well.
 
 <pre><code>
