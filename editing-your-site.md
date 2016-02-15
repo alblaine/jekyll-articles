@@ -33,11 +33,18 @@ owner:
   
 </code></pre>
 
-You can edit this file by opening it in a text editor, editing the information, and then saving it into the repository folder, replacing the older version of the file. You will then need to commit the changes to your github repository so that the changes will show up on your Jekyll site. For more information on how to manage files and commit them to your Github repository, see this getting started [guide](http://guides.github.com/introduction/getting-your-project-on-github)
+You can edit this file by opening it in a text editor, editing the information, and then saving it into the repository folder, replacing the older version of the file. You will then need to commit the changes to your github repository so that the changes will show up on your Jekyll site. For more information on how to manage files and commit them to your Github repository, see this getting started [guide](http://guides.github.com/introduction/getting-your-project-on-github).
 
 
 ## Adding posts
-All you have to do to add a new post is to create a file and drop it into the _posts folder. 
+All you have to do to add a new post is to create a file and drop it into the _posts folder. However, you have to format the title of the post with the date included in the title at the beginning. The file is saved as a .md file because it is written in [markdown](http://daringfireball.net/projects/markdown/). Here's an example: 
+
+<pre><code>
+2011-12-31-new-years-eve-is-awesome.md
+</code></pre>
+
+
+# Formatting posts
 
 Each post must have a header that tells Jekyll how to display your page. The header looks like this:
 
