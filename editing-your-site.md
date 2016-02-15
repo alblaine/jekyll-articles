@@ -44,7 +44,7 @@ All you have to do to add a new post is to create a file and drop it into the _p
 </code></pre>
 
 
-# Formatting posts
+## Formatting posts
 
 Each post must have a header that tells Jekyll how to display your page. The header looks like this:
 
